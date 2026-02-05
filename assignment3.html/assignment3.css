@@ -1,0 +1,28 @@
+h1{
+    color: rgb(255, 1, 1);
+    background-color: bisque;
+}
+h2{
+    color: white;
+    background-color: rgb(93, 0, 0);
+}
+.turnyellow{
+    color: yellow;
+    background-color: black;
+}
+#allowed{
+    color: pink;
+}
+a:link{
+color: #ff0055;
+}
+
+a:active{
+    color: #ff0055;
+}
+a:hover{
+    color: rgb(255, 255, 141);
+}
+a:visted{
+    color: rgb(47, 255, 99);
+}
