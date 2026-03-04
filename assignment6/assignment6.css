@@ -1,0 +1,71 @@
+body{
+    background-image: url('a62.png');
+}
+#wrapper {  
+ margin: auto;
+  padding: 0%;
+  width: 1200px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: auto;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.redbricks {
+    border: 10px white solid;
+    box-shadow: 0 0 0 10px black;
+    margin: 20px;
+    float:left;
+}
+.clearredbricks{
+    clear: both;
+}
+header {
+  grid-column: span 12;
+  background-color: rgb(0, 0, 0);
+  margin: 10px;    
+}
+nav {
+  grid-column: span 3;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 9;
+  justify-self: unset;
+}
+
+footer {
+  grid-column: span 12;
+}
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 3px solid black;
+}
+class .georgia {
+    font-family: Georgia, serif;
+    text-align: justify;
+}
