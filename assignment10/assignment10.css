@@ -51,22 +51,21 @@ nav a:hover {
 main {
   grid-column: span 12;
 }
-
-.gallery {
-  display: grid;
-  grid-template-columns: 12fr 1fr; 
-  gap: 10px; 
+#myCarousel {
+  margin-bottom: 0px;
 }
 
-.gallery img {
-  width: 700px;
-  height: 700px;
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 0px;
+  background: beige
 }
+
 section {
   grid-column: span 12;
   display: grid;
   background-color: #38893d;
-  border: 10px solid beige;
+  border: 0px solid beige;
 }
 .about {
   color: beige;
