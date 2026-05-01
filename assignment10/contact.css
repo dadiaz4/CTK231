@@ -31,7 +31,7 @@ nav{
 }
 nav li {
     display: inline-block;
-  width: 295px;
+    width: 395px;
 }
 nav a { 
    display:flex;
@@ -81,4 +81,8 @@ footer {
   color: beige;
   text-align: center;
   padding: 20px;
+}
+header a {
+  color: beige;
+  text-decoration: none;
 }
