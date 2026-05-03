@@ -50,7 +50,46 @@ nav a:hover {
 }
 main {
   grid-column: span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 40px;
+  font-size: 20px;
+}
 
+.left img {
+  max-width: 500px
+}
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 145px);
+  justify-content: center;
+  gap: 25px;
+  font-size: 75px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  width: 145px;
+  height: 145px;
+  gap: 10px;  
+  background-color: #38893d;
+  color: beige;
+  border-radius: 50%;
+
+  font-size: 45px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  padding: 10px;
+}
+main {
+  font-family: 'Caveat', cursive;
+  color: #38893d;
+  background-color: rgb(187, 245, 166);
+  border: beige solid 8px;
 }
 main a {
   color: #38893d;
@@ -60,20 +99,6 @@ main a {
 }
 main a:hover {
   color: #2e6b2f;
-}
-main h2 {
-  font-family: 'Caveat', cursive;
-  font-size: 50px;
-}
-main {
-  font-family: 'Caveat', cursive;
-  font-size: 108px;
-  color: #38893d;
-  background-color: rgb(187, 245, 166);
-  border: beige solid 8px;
-}
-.right {
-  float: right;
 }
 footer {
   grid-column: span 12;

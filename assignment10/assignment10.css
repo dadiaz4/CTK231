@@ -84,3 +84,17 @@ header a {
   color: beige;
   text-decoration: none;
 }
+h1 {
+  background-image: linear-gradient(to bottom, #93ffa6, #ddd496, #6475ae, #343f83, #000b57);                       /* gradient */
+  color: transparent;           /* makes text transparent */
+  background-color: rgb(86, 255, 83);       /* fallback color if gradient breaks */
+  background-clip: text;        /* clips the background with the text */
+  background-attachment: fixed; /* locks the background gradient */ 
+}
+h2 {
+ background-image: linear-gradient(to bottom, #93ffa6, #ddd496, #8affa0, #5bd66d, #00570a);                       /* gradient */
+  color: transparent;           /* makes text transparent */
+  background-color: rgb(85, 255, 76);       /* fallback color if gradient breaks */
+  background-clip: text;        /* clips the background with the text */
+  background-attachment: fixed;
+}
